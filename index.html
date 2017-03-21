@@ -39,7 +39,7 @@
                 var canvas = document.getElementById("renderCanvas");
                 var engine = new BABYLON.Engine(canvas, true);
         
-                BABYLON.SceneLoader.Load("", "Sponza.babylon", engine, function (scene) {
+                BABYLON.SceneLoader.Load("", "skull.babylon", engine, function (scene) {
                     // Wait for textures and shaders to be ready
                     scene.executeWhenReady(function () {
                     scene.activeCamera.attachControl(canvas);
